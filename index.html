@@ -1,0 +1,74 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="survey.css">
+    <body>
+        <head>
+            <h1 id="title">Coffee Survey</h1>
+            <p id="description">Thank you for taking the time to take this survey</p>
+
+        </head>
+        
+        <div id="body">
+
+        <form id="survey-form">
+
+            <label id="name-label" for="name">
+            <p>Name:</p>
+            <label>
+
+            <input id="name" type="text" placeholder="Enter Your Name" required>
+           
+            <label id="email-label" for="email">
+            <p>Email:</p>
+            </label>
+
+            <input id="email" type="email" placeholder="Enter Your Email" required>
+
+            <label id="number-label" for="number">
+             <p>Age:</p>
+            </label>
+
+            <input id="number" type="number" placeholder="Enter Your Age" min="12" max="50" required>
+           
+            <p>How much do you love coffee:</p>
+            <select id="dropdown">
+                
+                <option value="default">It's okay</option>
+                <option value="default">I could live without it</option>
+                <option value="default">I'm borderline addicted</option>
+                <option value="default">I need it</option>
+           
+            </select>
+
+            <p>What do you like about coffee</p>
+
+            <input type="radio" name="option" value="1">IT GIVES ME ENERGY</input>    
+        <br>
+            <input type="radio" name="option" value="2">GIVES ME A PUMP</input>
+        <br>
+            <input type="radio" name="option" value="3">the taste</input>
+        <br>
+            <input type="radio" name="option" value="4">eh dont know..</input>
+        
+
+            <p>How do you like your coffee</p>
+
+            <input type="checkbox" name="test" value="1">black</input>
+        <br>
+            <input type="checkbox" name="test" value="1">with creamer/milk</input>
+        <br>
+            <input type="checkbox" name="test" value="1">sweetened</input>
+        <br>
+            <input type="checkbox" name="test" value="1">unsweetened</input>
+        <br>
+        
+        <br> 
+        <textarea id="comment" rows="4" cold="40">comment here</textarea>
+        <input id="submit" type="submit" value="submit">
+
+        
+
+        </form>
+    </body>
+
+        </div>
+</html>
